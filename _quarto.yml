@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs  
+
+website:
+  title: "IST719 Information Visualization"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+      - href: assignments.qmd
+      - href: readings.qmd
+      - href: about.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css

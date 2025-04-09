@@ -1,0 +1,8 @@
+---
+title: "Readings"
+format: html
+---
+
+## Week 1
+
+- [Chapter 1 - Overview](link)

@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IST719_InfoVis",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "IST719 covers…"
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "IST719 covers…"
+  },
+  {
+    "objectID": "syllabus.html#schedule",
+    "href": "syllabus.html#schedule",
+    "title": "Syllabus",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\nWeek\nTopic\n\n\n\n\n1\nIntroduction\n\n\n2\nData Types"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Description…"
+  },
+  {
+    "objectID": "assignments.html#assignment-1",
+    "href": "assignments.html#assignment-1",
+    "title": "Assignments",
+    "section": "",
+    "text": "Description…"
+  },
+  {
+    "objectID": "assignments.html#assignment-2",
+    "href": "assignments.html#assignment-2",
+    "title": "Assignments",
+    "section": "Assignment 2",
+    "text": "Assignment 2\nDescription…"
+  },
+  {
+    "objectID": "readings.html",
+    "href": "readings.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Chapter 1 - Overview"
+  },
+  {
+    "objectID": "readings.html#week-1",
+    "href": "readings.html#week-1",
+    "title": "Readings",
+    "section": "",
+    "text": "Chapter 1 - Overview"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]

@@ -1,0 +1,15 @@
+---
+title: "Syllabus"
+format: html
+---
+
+## Course Description
+
+IST719 covers...
+
+## Schedule
+
+| Week | Topic |
+|------|-------|
+| 1 | Introduction |
+| 2 | Data Types |
