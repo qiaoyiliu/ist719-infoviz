@@ -1,5 +1,14 @@
 ---
-title: "IST719_InfoVis"
+title: "Welcome to IST719 Information Visualization"
+format: html
 ---
 
-Welcome to IST719 Information Visualization!
+## About This Course
+
+Information visualization combines analytical thinking, design, and storytelling to make complex data understandable.
+
+## Learning Objectives
+
+- Design effective visualizations using R and ggplot2
+- Understand visual perception and its role in data encoding
+- Apply design principles to layout, color, and typography

@@ -3,13 +3,86 @@ title: "Syllabus"
 format: html
 ---
 
+## Course Information
+
+- **Course Title:** IST719 Information Visualization  
+- **Section:** M002 – Thursdays 2:00 to 4:45 PM, HH 013  
+- **Instructor:** Dr. Sevgi Erdogan  
+- **Email:** serdogan@syr.edu  
+- **Office:** HH 224  
+- **Office Hours:** By arrangement or before/after class
+
+---
+
 ## Course Description
 
-IST719 covers...
+(Overview and additional description — including tools used: R and Illustrator)
 
-## Schedule
+---
 
-| Week | Topic |
-|------|-------|
-| 1 | Introduction |
-| 2 | Data Types |
+## Prerequisites
+
+IST 387/687 or equivalent programming experience (R, Python, etc.)
+
+---
+
+## Audience & Credits
+
+- Designed for students interested in data science & analytics  
+- **Credits:** 3  
+- **Costs:** Print books (optional), poster (~$12), Illustrator subscription (optional)
+
+---
+
+## Learning Objectives
+
+Clear list of objectives and outcomes after taking the course.
+
+---
+
+## Required Texts & Supplies
+
+List of books + online links
+
+---
+
+## Course Structure & Expectations
+
+Lecture + lab format, peer learning, labs due at end of session, etc.
+
+---
+
+## Assignments & Grading
+
+List and description of:
+- Labs
+- Homework
+- Quizzes
+- Group Reports
+- Ethics Assignment
+- Viz-a-thon
+- Final Poster Project
+
+---
+
+## Grading Scale
+
+Grade table (A = 96–100%, etc.)
+
+---
+
+## Course Policies
+
+Attendance, late work, participation, etc.
+
+---
+
+## University Policies
+
+Academic Integrity, AI policy, religious observances, accommodations, Title IX, mental health, Blackboard usage, etc.
+
+---
+
+## Course Schedule Overview
+
+(Summary of weekly topics and links to `topics/*.qmd` pages)

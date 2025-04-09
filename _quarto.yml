@@ -1,17 +1,41 @@
 project:
   type: website
-  output-dir: docs  
+  output-dir: docs
 
 website:
   title: "IST719 Information Visualization"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: syllabus.qmd
-      - href: assignments.qmd
-      - href: readings.qmd
-      - href: about.qmd
+  sidebar:
+    style: floating
+    search: false
+    contents:
+      - index.qmd
+      - syllabus.qmd
+      - section: "Course Topics"
+        contents:
+          - text: "Dplyr & Data Wrangling"
+            file: topics/dplyr.qmd
+          - text: "Data Libraries + Multivariate Plots"
+            file: topics/libraries.qmd
+          - text: "Intro to ggplot2"
+            file: topics/ggplot1.qmd
+          - text: "Advanced ggplot2"
+            file: topics/ggplot2.qmd
+          - text: "Storytelling & Illustrator Intro"
+            file: topics/storytelling.qmd
+          - text: "Mapping in R"
+            file: topics/mapping.qmd
+          - text: "Color in R & Illustrator"
+            file: topics/color.qmd
+          - text: "Layout, Typeface, Poster Design"
+            file: topics/layout.qmd
+          - text: "Viz-a-thon"
+            file: topics/vizathon.qmd
+          - text: "Ethics & Word Clouds"
+            file: topics/ethics.qmd
+          - text: "Network Analysis + WiP Feedback"
+            file: topics/network.qmd
+          - text: "Interactivity with Shiny"
+            file: topics/shiny.qmd
 
 format:
   html:

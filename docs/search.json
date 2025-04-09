@@ -2,23 +2,32 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "IST719_InfoVis",
+    "title": "Welcome to IST719 Information Visualization",
     "section": "",
-    "text": "Welcome to IST719 Information Visualization!"
+    "text": "Information visualization combines analytical thinking, design, and storytelling to make complex data understandable.",
+    "crumbs": [
+      "Welcome to IST719 Information Visualization"
+    ]
   },
   {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "IST719 covers…"
+    "text": "Course Title: IST719 Information Visualization\n\nSection: M002 – Thursdays 2:00 to 4:45 PM, HH 013\n\nInstructor: Dr. Sevgi Erdogan\n\nEmail: serdogan@syr.edu\n\nOffice: HH 224\n\nOffice Hours: By arrangement or before/after class",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#course-description",
     "href": "syllabus.html#course-description",
     "title": "Syllabus",
-    "section": "",
-    "text": "IST719 covers…"
+    "section": "Course Description",
+    "text": "Course Description\n(Overview and additional description — including tools used: R and Illustrator)",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#schedule",
@@ -68,5 +77,277 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course Title: IST719 Information Visualization\n\nSection: M002 – Thursdays 2:00 to 4:45 PM, HH 013\n\nInstructor: Dr. Sevgi Erdogan\n\nEmail: serdogan@syr.edu\n\nOffice: HH 224\n\nOffice Hours: By arrangement or before/after class",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#prerequisites",
+    "href": "syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nIST 387/687 or equivalent programming experience (R, Python, etc.)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#audience-credits",
+    "href": "syllabus.html#audience-credits",
+    "title": "Syllabus",
+    "section": "Audience & Credits",
+    "text": "Audience & Credits\n\nDesigned for students interested in data science & analytics\n\nCredits: 3\n\nCosts: Print books (optional), poster (~$12), Illustrator subscription (optional)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#learning-objectives",
+    "href": "syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nClear list of objectives and outcomes after taking the course.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#required-texts-supplies",
+    "href": "syllabus.html#required-texts-supplies",
+    "title": "Syllabus",
+    "section": "Required Texts & Supplies",
+    "text": "Required Texts & Supplies\nList of books + online links",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-structure-expectations",
+    "href": "syllabus.html#course-structure-expectations",
+    "title": "Syllabus",
+    "section": "Course Structure & Expectations",
+    "text": "Course Structure & Expectations\nLecture + lab format, peer learning, labs due at end of session, etc.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#assignments-grading",
+    "href": "syllabus.html#assignments-grading",
+    "title": "Syllabus",
+    "section": "Assignments & Grading",
+    "text": "Assignments & Grading\nList and description of: - Labs - Homework - Quizzes - Group Reports - Ethics Assignment - Viz-a-thon - Final Poster Project",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#grading-scale",
+    "href": "syllabus.html#grading-scale",
+    "title": "Syllabus",
+    "section": "Grading Scale",
+    "text": "Grading Scale\nGrade table (A = 96–100%, etc.)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-policies",
+    "href": "syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course Policies",
+    "text": "Course Policies\nAttendance, late work, participation, etc.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#university-policies",
+    "href": "syllabus.html#university-policies",
+    "title": "Syllabus",
+    "section": "University Policies",
+    "text": "University Policies\nAcademic Integrity, AI policy, religious observances, accommodations, Title IX, mental health, Blackboard usage, etc.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-schedule-overview",
+    "href": "syllabus.html#course-schedule-overview",
+    "title": "Syllabus",
+    "section": "Course Schedule Overview",
+    "text": "Course Schedule Overview\n(Summary of weekly topics and links to topics/*.qmd pages)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "topics/color.html",
+    "href": "topics/color.html",
+    "title": "Color",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Color in R & Illustrator"
+    ]
+  },
+  {
+    "objectID": "topics/layout.html",
+    "href": "topics/layout.html",
+    "title": "layout",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Layout, Typeface, Poster Design"
+    ]
+  },
+  {
+    "objectID": "topics/ethics.html",
+    "href": "topics/ethics.html",
+    "title": "Ethics",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Ethics & Word Clouds"
+    ]
+  },
+  {
+    "objectID": "topics/vizathon.html",
+    "href": "topics/vizathon.html",
+    "title": "vizathon",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Viz-a-thon"
+    ]
+  },
+  {
+    "objectID": "topics/ggplot2.html",
+    "href": "topics/ggplot2.html",
+    "title": "ggplot2",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Advanced ggplot2"
+    ]
+  },
+  {
+    "objectID": "topics/ggplot1.html",
+    "href": "topics/ggplot1.html",
+    "title": "ggplot1",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Intro to ggplot2"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-course",
+    "href": "index.html#about-this-course",
+    "title": "Welcome to IST719 Information Visualization",
+    "section": "",
+    "text": "Information visualization combines analytical thinking, design, and storytelling to make complex data understandable.",
+    "crumbs": [
+      "Welcome to IST719 Information Visualization"
+    ]
+  },
+  {
+    "objectID": "index.html#what-youll-learn",
+    "href": "index.html#what-youll-learn",
+    "title": "Welcome to IST719 Information Visualization",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\n\nDesign effective visualizations using R and ggplot2\nUnderstand visual perception and its role in data encoding\nApply design principles to layout, color, and typography",
+    "crumbs": [
+      "Welcome to IST719 Information Visualization"
+    ]
+  },
+  {
+    "objectID": "topics/libraries.html",
+    "href": "topics/libraries.html",
+    "title": "libraries",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Data Libraries + Multivariate Plots"
+    ]
+  },
+  {
+    "objectID": "topics/shiny.html",
+    "href": "topics/shiny.html",
+    "title": "shiny",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Interactivity with Shiny"
+    ]
+  },
+  {
+    "objectID": "topics/storytelling.html",
+    "href": "topics/storytelling.html",
+    "title": "storytelling",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Storytelling & Illustrator Intro"
+    ]
+  },
+  {
+    "objectID": "topics/dplyr.html",
+    "href": "topics/dplyr.html",
+    "title": "Dplyr",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Dplyr & Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "topics/network.html",
+    "href": "topics/network.html",
+    "title": "network",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Network Analysis + WiP Feedback"
+    ]
+  },
+  {
+    "objectID": "topics/mapping.html",
+    "href": "topics/mapping.html",
+    "title": "mapping",
+    "section": "",
+    "text": "Content coming soon…",
+    "crumbs": [
+      "Course Topics",
+      "Mapping in R"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
+    "title": "Welcome to IST719 Information Visualization",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDesign effective visualizations using R and ggplot2\nUnderstand visual perception and its role in data encoding\nApply design principles to layout, color, and typography",
+    "crumbs": [
+      "Welcome to IST719 Information Visualization"
+    ]
   }
 ]

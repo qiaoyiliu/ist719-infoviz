@@ -41,11 +41,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-2d3a5f678c659c6d9658e8627949fb9f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -72,61 +72,149 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">IST719 Information Visualization</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./syllabus.html" aria-current="page"> 
-<span class="menu-text">Syllabus</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./assignments.html"> 
-<span class="menu-text">Assignments</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./readings.html"> 
-<span class="menu-text">Readings</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IST719 Information Visualization</a> 
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome to IST719 Information Visualization</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Course Topics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/dplyr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dplyr &amp; Data Wrangling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/libraries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Libraries + Multivariate Plots</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/ggplot1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intro to ggplot2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/ggplot2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Advanced ggplot2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/storytelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Storytelling &amp; Illustrator Intro</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/mapping.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mapping in R</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/color.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Color in R &amp; Illustrator</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/layout.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Layout, Typeface, Poster Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/vizathon.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Viz-a-thon</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/ethics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethics &amp; Word Clouds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/network.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Network Analysis + WiP Feedback</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/shiny.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interactivity with Shiny</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description</a></li>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#course-information" id="toc-course-information" class="nav-link active" data-scroll-target="#course-information">Course Information</a></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#audience-credits" id="toc-audience-credits" class="nav-link" data-scroll-target="#audience-credits">Audience &amp; Credits</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#required-texts-supplies" id="toc-required-texts-supplies" class="nav-link" data-scroll-target="#required-texts-supplies">Required Texts &amp; Supplies</a></li>
+  <li><a href="#course-structure-expectations" id="toc-course-structure-expectations" class="nav-link" data-scroll-target="#course-structure-expectations">Course Structure &amp; Expectations</a></li>
+  <li><a href="#assignments-grading" id="toc-assignments-grading" class="nav-link" data-scroll-target="#assignments-grading">Assignments &amp; Grading</a></li>
+  <li><a href="#grading-scale" id="toc-grading-scale" class="nav-link" data-scroll-target="#grading-scale">Grading Scale</a></li>
+  <li><a href="#course-policies" id="toc-course-policies" class="nav-link" data-scroll-target="#course-policies">Course Policies</a></li>
+  <li><a href="#university-policies" id="toc-university-policies" class="nav-link" data-scroll-target="#university-policies">University Policies</a></li>
+  <li><a href="#course-schedule-overview" id="toc-course-schedule-overview" class="nav-link" data-scroll-target="#course-schedule-overview">Course Schedule Overview</a></li>
   </ul>
 </nav>
     </div>
@@ -152,30 +240,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="course-information" class="level2">
+<h2 class="anchored" data-anchor-id="course-information">Course Information</h2>
+<ul>
+<li><strong>Course Title:</strong> IST719 Information Visualization<br>
+</li>
+<li><strong>Section:</strong> M002 – Thursdays 2:00 to 4:45 PM, HH 013<br>
+</li>
+<li><strong>Instructor:</strong> Dr.&nbsp;Sevgi Erdogan<br>
+</li>
+<li><strong>Email:</strong> serdogan@syr.edu<br>
+</li>
+<li><strong>Office:</strong> HH 224<br>
+</li>
+<li><strong>Office Hours:</strong> By arrangement or before/after class</li>
+</ul>
+<hr>
+</section>
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>IST719 covers…</p>
+<p>(Overview and additional description — including tools used: R and Illustrator)</p>
+<hr>
 </section>
-<section id="schedule" class="level2">
-<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Introduction</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Data Types</td>
-</tr>
-</tbody>
-</table>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>IST 387/687 or equivalent programming experience (R, Python, etc.)</p>
+<hr>
+</section>
+<section id="audience-credits" class="level2">
+<h2 class="anchored" data-anchor-id="audience-credits">Audience &amp; Credits</h2>
+<ul>
+<li>Designed for students interested in data science &amp; analytics<br>
+</li>
+<li><strong>Credits:</strong> 3<br>
+</li>
+<li><strong>Costs:</strong> Print books (optional), poster (~$12), Illustrator subscription (optional)</li>
+</ul>
+<hr>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>Clear list of objectives and outcomes after taking the course.</p>
+<hr>
+</section>
+<section id="required-texts-supplies" class="level2">
+<h2 class="anchored" data-anchor-id="required-texts-supplies">Required Texts &amp; Supplies</h2>
+<p>List of books + online links</p>
+<hr>
+</section>
+<section id="course-structure-expectations" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure-expectations">Course Structure &amp; Expectations</h2>
+<p>Lecture + lab format, peer learning, labs due at end of session, etc.</p>
+<hr>
+</section>
+<section id="assignments-grading" class="level2">
+<h2 class="anchored" data-anchor-id="assignments-grading">Assignments &amp; Grading</h2>
+<p>List and description of: - Labs - Homework - Quizzes - Group Reports - Ethics Assignment - Viz-a-thon - Final Poster Project</p>
+<hr>
+</section>
+<section id="grading-scale" class="level2">
+<h2 class="anchored" data-anchor-id="grading-scale">Grading Scale</h2>
+<p>Grade table (A = 96–100%, etc.)</p>
+<hr>
+</section>
+<section id="course-policies" class="level2">
+<h2 class="anchored" data-anchor-id="course-policies">Course Policies</h2>
+<p>Attendance, late work, participation, etc.</p>
+<hr>
+</section>
+<section id="university-policies" class="level2">
+<h2 class="anchored" data-anchor-id="university-policies">University Policies</h2>
+<p>Academic Integrity, AI policy, religious observances, accommodations, Title IX, mental health, Blackboard usage, etc.</p>
+<hr>
+</section>
+<section id="course-schedule-overview" class="level2">
+<h2 class="anchored" data-anchor-id="course-schedule-overview">Course Schedule Overview</h2>
+<p>(Summary of weekly topics and links to <code>topics/*.qmd</code> pages)</p>
 
 
 </section>
