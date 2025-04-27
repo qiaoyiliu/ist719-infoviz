@@ -14,7 +14,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Course Title: IST719 Information Visualization\n\nSection: M002 – Thursdays 2:00 to 4:45 PM, HH 013\n\nInstructor: Dr. Sevgi Erdogan\n\nEmail: serdogan@syr.edu\n\nOffice: HH 224\n\nOffice Hours: By arrangement or before/after class",
+    "text": "Your browser does not support PDFs. &lt;a href=\"IST719_InfoViz_Syllabus_S25.pdf\"&gt;Download the PDF&lt;/a&gt; instead.\n\n\n\n\nCourse Title: IST719 Information Visualization\n\nSection: M002 – Thursdays 2:00 to 4:45 PM, HH 013\n\nInstructor: Dr. Sevgi Erdogan\n\nEmail: serdogan@syr.edu\n\nOffice: HH 224\n\nOffice Hours: By arrangement or before/after class\n\n\n\n\n\n(Overview and additional description — including tools used: R and Illustrator)\n\n\n\n\nIST 387/687 or equivalent programming experience (R, Python, etc.)\n\n\n\n\n\nDesigned for students interested in data science & analytics\n\nCredits: 3\n\nCosts: Print books (optional), poster (~$12), Illustrator subscription (optional)\n\n\n\n\n\nClear list of objectives and outcomes after taking the course.\n\n\n\n\nList of books + online links\n\n\n\n\nLecture + lab format, peer learning, labs due at end of session, etc.\n\n\n\n\nList and description of: - Labs - Homework - Quizzes - Group Reports - Ethics Assignment - Viz-a-thon - Final Poster Project\n\n\n\n\nGrade table (A = 96–100%, etc.)\n\n\n\n\nAttendance, late work, participation, etc.\n\n\n\n\nAcademic Integrity, AI policy, religious observances, accommodations, Title IX, mental health, Blackboard usage, etc.\n\n\n\n\n(Summary of weekly topics and links to topics/*.qmd pages)",
     "crumbs": [
       "Syllabus"
     ]
@@ -23,8 +23,8 @@
     "objectID": "syllabus.html#course-description",
     "href": "syllabus.html#course-description",
     "title": "Syllabus",
-    "section": "Course Description",
-    "text": "Course Description\n(Overview and additional description — including tools used: R and Illustrator)",
+    "section": "",
+    "text": "(Overview and additional description — including tools used: R and Illustrator)",
     "crumbs": [
       "Syllabus"
     ]
@@ -92,8 +92,8 @@
     "objectID": "syllabus.html#prerequisites",
     "href": "syllabus.html#prerequisites",
     "title": "Syllabus",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nIST 387/687 or equivalent programming experience (R, Python, etc.)",
+    "section": "",
+    "text": "IST 387/687 or equivalent programming experience (R, Python, etc.)",
     "crumbs": [
       "Syllabus"
     ]
@@ -102,8 +102,8 @@
     "objectID": "syllabus.html#audience-credits",
     "href": "syllabus.html#audience-credits",
     "title": "Syllabus",
-    "section": "Audience & Credits",
-    "text": "Audience & Credits\n\nDesigned for students interested in data science & analytics\n\nCredits: 3\n\nCosts: Print books (optional), poster (~$12), Illustrator subscription (optional)",
+    "section": "",
+    "text": "Designed for students interested in data science & analytics\n\nCredits: 3\n\nCosts: Print books (optional), poster (~$12), Illustrator subscription (optional)",
     "crumbs": [
       "Syllabus"
     ]
@@ -112,8 +112,8 @@
     "objectID": "syllabus.html#learning-objectives",
     "href": "syllabus.html#learning-objectives",
     "title": "Syllabus",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nClear list of objectives and outcomes after taking the course.",
+    "section": "",
+    "text": "Clear list of objectives and outcomes after taking the course.",
     "crumbs": [
       "Syllabus"
     ]
@@ -122,8 +122,8 @@
     "objectID": "syllabus.html#required-texts-supplies",
     "href": "syllabus.html#required-texts-supplies",
     "title": "Syllabus",
-    "section": "Required Texts & Supplies",
-    "text": "Required Texts & Supplies\nList of books + online links",
+    "section": "",
+    "text": "List of books + online links",
     "crumbs": [
       "Syllabus"
     ]
@@ -132,8 +132,8 @@
     "objectID": "syllabus.html#course-structure-expectations",
     "href": "syllabus.html#course-structure-expectations",
     "title": "Syllabus",
-    "section": "Course Structure & Expectations",
-    "text": "Course Structure & Expectations\nLecture + lab format, peer learning, labs due at end of session, etc.",
+    "section": "",
+    "text": "Lecture + lab format, peer learning, labs due at end of session, etc.",
     "crumbs": [
       "Syllabus"
     ]
@@ -142,8 +142,8 @@
     "objectID": "syllabus.html#assignments-grading",
     "href": "syllabus.html#assignments-grading",
     "title": "Syllabus",
-    "section": "Assignments & Grading",
-    "text": "Assignments & Grading\nList and description of: - Labs - Homework - Quizzes - Group Reports - Ethics Assignment - Viz-a-thon - Final Poster Project",
+    "section": "",
+    "text": "List and description of: - Labs - Homework - Quizzes - Group Reports - Ethics Assignment - Viz-a-thon - Final Poster Project",
     "crumbs": [
       "Syllabus"
     ]
@@ -152,8 +152,8 @@
     "objectID": "syllabus.html#grading-scale",
     "href": "syllabus.html#grading-scale",
     "title": "Syllabus",
-    "section": "Grading Scale",
-    "text": "Grading Scale\nGrade table (A = 96–100%, etc.)",
+    "section": "",
+    "text": "Grade table (A = 96–100%, etc.)",
     "crumbs": [
       "Syllabus"
     ]
@@ -162,8 +162,8 @@
     "objectID": "syllabus.html#course-policies",
     "href": "syllabus.html#course-policies",
     "title": "Syllabus",
-    "section": "Course Policies",
-    "text": "Course Policies\nAttendance, late work, participation, etc.",
+    "section": "",
+    "text": "Attendance, late work, participation, etc.",
     "crumbs": [
       "Syllabus"
     ]
@@ -172,8 +172,8 @@
     "objectID": "syllabus.html#university-policies",
     "href": "syllabus.html#university-policies",
     "title": "Syllabus",
-    "section": "University Policies",
-    "text": "University Policies\nAcademic Integrity, AI policy, religious observances, accommodations, Title IX, mental health, Blackboard usage, etc.",
+    "section": "",
+    "text": "Academic Integrity, AI policy, religious observances, accommodations, Title IX, mental health, Blackboard usage, etc.",
     "crumbs": [
       "Syllabus"
     ]
@@ -182,8 +182,8 @@
     "objectID": "syllabus.html#course-schedule-overview",
     "href": "syllabus.html#course-schedule-overview",
     "title": "Syllabus",
-    "section": "Course Schedule Overview",
-    "text": "Course Schedule Overview\n(Summary of weekly topics and links to topics/*.qmd pages)",
+    "section": "",
+    "text": "(Summary of weekly topics and links to topics/*.qmd pages)",
     "crumbs": [
       "Syllabus"
     ]
