@@ -66,6 +66,85 @@
     ]
   },
   {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Test R Code Execution",
+    "section": "",
+    "text": "Test Plot\n\nlibrary(ggplot2)\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\nggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Description…"
+  },
+  {
+    "objectID": "assignments.html#assignment-1",
+    "href": "assignments.html#assignment-1",
+    "title": "Assignments",
+    "section": "",
+    "text": "Description…"
+  },
+  {
+    "objectID": "assignments.html#assignment-2",
+    "href": "assignments.html#assignment-2",
+    "title": "Assignments",
+    "section": "Assignment 2",
+    "text": "Assignment 2\nDescription…"
+  },
+  {
+    "objectID": "readings.html",
+    "href": "readings.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Chapter 1 - Overview"
+  },
+  {
+    "objectID": "readings.html#week-1",
+    "href": "readings.html#week-1",
+    "title": "Readings",
+    "section": "",
+    "text": "Chapter 1 - Overview"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to IST719 Information Visualization",
+    "section": "",
+    "text": "Information visualization combines analytical thinking, design, and storytelling to make complex data understandable.",
+    "crumbs": [
+      "Welcome to IST719 Information Visualization"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-course",
+    "href": "index.html#about-this-course",
+    "title": "Welcome to IST719 Information Visualization",
+    "section": "",
+    "text": "Information visualization combines analytical thinking, design, and storytelling to make complex data understandable.",
+    "crumbs": [
+      "Welcome to IST719 Information Visualization"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
+    "title": "Welcome to IST719 Information Visualization",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDesign effective visualizations using R and ggplot2\nUnderstand visual perception and its role in data encoding\nApply design principles to layout, color, and typography",
+    "crumbs": [
+      "Welcome to IST719 Information Visualization"
+    ]
+  },
+  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
@@ -196,78 +275,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to IST719 Information Visualization",
-    "section": "",
-    "text": "Information visualization combines analytical thinking, design, and storytelling to make complex data understandable.",
-    "crumbs": [
-      "Welcome to IST719 Information Visualization"
-    ]
-  },
-  {
-    "objectID": "index.html#about-this-course",
-    "href": "index.html#about-this-course",
-    "title": "Welcome to IST719 Information Visualization",
-    "section": "",
-    "text": "Information visualization combines analytical thinking, design, and storytelling to make complex data understandable.",
-    "crumbs": [
-      "Welcome to IST719 Information Visualization"
-    ]
-  },
-  {
-    "objectID": "index.html#learning-objectives",
-    "href": "index.html#learning-objectives",
-    "title": "Welcome to IST719 Information Visualization",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nDesign effective visualizations using R and ggplot2\nUnderstand visual perception and its role in data encoding\nApply design principles to layout, color, and typography",
-    "crumbs": [
-      "Welcome to IST719 Information Visualization"
-    ]
-  },
-  {
-    "objectID": "readings.html",
-    "href": "readings.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Chapter 1 - Overview"
-  },
-  {
-    "objectID": "readings.html#week-1",
-    "href": "readings.html#week-1",
-    "title": "Readings",
-    "section": "",
-    "text": "Chapter 1 - Overview"
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Description…"
-  },
-  {
-    "objectID": "assignments.html#assignment-1",
-    "href": "assignments.html#assignment-1",
-    "title": "Assignments",
-    "section": "",
-    "text": "Description…"
-  },
-  {
-    "objectID": "assignments.html#assignment-2",
-    "href": "assignments.html#assignment-2",
-    "title": "Assignments",
-    "section": "Assignment 2",
-    "text": "Assignment 2\nDescription…"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "topics/libraries.html",
     "href": "topics/libraries.html",
     "title": "libraries",
@@ -321,12 +328,5 @@
       "Course Topics",
       "Network Analysis + WiP Feedback"
     ]
-  },
-  {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Test R Code Execution",
-    "section": "",
-    "text": "Test Plot\n\nlibrary(ggplot2)\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\nggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()"
   }
 ]
