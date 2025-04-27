@@ -1,6 +1,30 @@
 ---
 title: "ggplot1"
 format: html
+execute: 
+  echo: true
+  eval: true
 ---
 
-Content coming soon...
+# Heatmap of Sales Data
+
+This example explores relationships between **expenses** and **income** in a sample dataset.
+
+```{r}
+# Load necessary libraries
+library(tidyverse)
+library(ggplot2)
+library(ggthemes)
+
+# Read the sales dataset
+sales <- read.csv("data/sales.csv")  # Adjusted path if you put it under /data/
+
+# Create a price category
+price <- ifelse(sales$unit.price > 14, "expensive", "moderate")
+price[sales$unit.price < 9] <- "cheap"
+
+# Plot heatmap
+ggplot(sales) + 
+  aes(x = expenses, y = income, color = price) + 
+  geom_hex(bins = 50) +
+  ggtitle("Heatmap of Expenses vs Income using bin2d")

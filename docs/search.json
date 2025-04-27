@@ -248,7 +248,7 @@
     "href": "topics/ggplot1.html",
     "title": "ggplot1",
     "section": "",
-    "text": "Content coming soon…",
+    "text": "Heatmap of Sales Data\nThis example explores relationships between expenses and income in a sample dataset.\n\n\nLoad necessary libraries\nlibrary(tidyverse) library(ggplot2) library(ggthemes)\n\n\nRead the sales dataset\nsales &lt;- read.csv(“data/sales.csv”) # Adjusted path if you put it under /data/\n\n\nCreate a price category\nprice &lt;- ifelse(sales\\(unit.price &gt; 14, \"expensive\", \"moderate\")\nprice[sales\\)unit.price &lt; 9] &lt;- “cheap”\n\n\nPlot heatmap\nggplot(sales) + aes(x = expenses, y = income, color = price) + geom_hex(bins = 50) + ggtitle(“Heatmap of Expenses vs Income using bin2d”)",
     "crumbs": [
       "Course Topics",
       "Intro to ggplot2"

@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -198,8 +227,18 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#heatmap-of-sales-data" id="toc-heatmap-of-sales-data" class="nav-link active" data-scroll-target="#heatmap-of-sales-data">Heatmap of Sales Data</a></li>
+  <li><a href="#load-necessary-libraries" id="toc-load-necessary-libraries" class="nav-link" data-scroll-target="#load-necessary-libraries">Load necessary libraries</a></li>
+  <li><a href="#read-the-sales-dataset" id="toc-read-the-sales-dataset" class="nav-link" data-scroll-target="#read-the-sales-dataset">Read the sales dataset</a></li>
+  <li><a href="#create-a-price-category" id="toc-create-a-price-category" class="nav-link" data-scroll-target="#create-a-price-category">Create a price category</a></li>
+  <li><a href="#plot-heatmap" id="toc-plot-heatmap" class="nav-link" data-scroll-target="#plot-heatmap">Plot heatmap</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -223,9 +262,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Content coming soon…</p>
+<section id="heatmap-of-sales-data" class="level1">
+<h1>Heatmap of Sales Data</h1>
+<p>This example explores relationships between <strong>expenses</strong> and <strong>income</strong> in a sample dataset.</p>
+</section>
+<section id="load-necessary-libraries" class="level1">
+<h1>Load necessary libraries</h1>
+<p>library(tidyverse) library(ggplot2) library(ggthemes)</p>
+</section>
+<section id="read-the-sales-dataset" class="level1">
+<h1>Read the sales dataset</h1>
+<p>sales &lt;- read.csv(“data/sales.csv”) # Adjusted path if you put it under /data/</p>
+</section>
+<section id="create-a-price-category" class="level1">
+<h1>Create a price category</h1>
+<p>price &lt;- ifelse(sales<span class="math inline">\(unit.price &gt; 14, "expensive", "moderate")
+price[sales\)</span>unit.price &lt; 9] &lt;- “cheap”</p>
+</section>
+<section id="plot-heatmap" class="level1">
+<h1>Plot heatmap</h1>
+<p>ggplot(sales) + aes(x = expenses, y = income, color = price) + geom_hex(bins = 50) + ggtitle(“Heatmap of Expenses vs Income using bin2d”)</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
