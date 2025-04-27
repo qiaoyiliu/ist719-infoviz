@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ggplot2 – IST719 Information Visualization</title>
+<title>Lab 1: Introduction to R and Data Wrangling – IST719 Information Visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/dplyr.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../topics/ggplot2.html">Advanced ggplot2</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../labs/lab1.html">Labs</a></li><li class="breadcrumb-item"><a href="../labs/lab1.html">Lab 1</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../topics/ggplot2.html" class="sidebar-item-text sidebar-link active">
+  <a href="../topics/ggplot2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Advanced ggplot2</span></a>
   </div>
 </li>
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../labs/lab1.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../labs/lab1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Lab 1</span></a>
   </div>
 </li>
@@ -257,17 +257,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quiz-ggplot2-command-check" id="toc-quiz-ggplot2-command-check" class="nav-link active" data-scroll-target="#quiz-ggplot2-command-check">Quiz: ggplot2 Command Check</a></li>
-  <li><a href="#consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type." id="toc-consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type." class="nav-link" data-scroll-target="#consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type.">Consider the dataset <code>mpg</code>, and variables <code>cty</code> (city miles per gallon), <code>hwy</code> (highway miles per gallon), and <code>fl</code> (fuel type).</a></li>
+  <li><a href="#lab-1-overview" id="toc-lab-1-overview" class="nav-link active" data-scroll-target="#lab-1-overview">Lab 1 Overview</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/dplyr.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../topics/ggplot2.html">Advanced ggplot2</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../labs/lab1.html">Labs</a></li><li class="breadcrumb-item"><a href="../labs/lab1.html">Lab 1</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">ggplot2</h1>
+<h1 class="title">Lab 1: Introduction to R and Data Wrangling</h1>
 </div>
 
 
@@ -284,21 +283,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="quiz-ggplot2-command-check" class="level2">
-<h2 class="anchored" data-anchor-id="quiz-ggplot2-command-check">Quiz: ggplot2 Command Check</h2>
-</section>
-<section id="consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type." class="level1 quiz" data-options="allow-retry:true show-answers:true">
-<h1>Consider the dataset <code>mpg</code>, and variables <code>cty</code> (city miles per gallon), <code>hwy</code> (highway miles per gallon), and <code>fl</code> (fuel type).</h1>
-<p>Which of the following commands produces the desired scatter plot with <code>cty</code> on the x-axis, <code>hwy</code> on the y-axis, colored by <code>fl</code>?</p>
-<ul class="task-list">
-<li><label><input type="checkbox"><code>ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hyw, fill=fl))</code></label></li>
-<li><label><input type="checkbox" checked=""><code>ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hwy, color=fl))</code></label></li>
-<li><label><input type="checkbox"><code>ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hwy), color=fl)</code></label></li>
-<li><label><input type="checkbox"><code>ggplot(data=mpg, mapping = aes(x = cty, y = hwy, color=fl))+geom_point()</code></label></li>
-</ul>
-</section>
+<section id="lab-1-overview" class="level1">
+<h1>Lab 1 Overview</h1>
+<p>Welcome to the first lab session!<br>
+In this lab you will practice basic R operations and tidy data wrangling.</p>
+<p>Content coming soon…</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

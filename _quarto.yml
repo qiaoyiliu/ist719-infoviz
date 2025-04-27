@@ -6,7 +6,7 @@ website:
   title: "IST719 Information Visualization"
   sidebar:
     style: floating
-    search: true
+    search: true   # ✅ already turned on
     sidebar-header: includes/_sidebar-header.html
     contents:
       - index.qmd
@@ -37,6 +37,18 @@ website:
             file: topics/network.qmd
           - text: "Interactivity with Shiny"
             file: topics/shiny.qmd
+      - section: "Labs"
+        contents:
+          - text: "Lab 1"
+            file: labs/lab1.qmd
+          - text: "Lab 2"
+            file: labs/lab2.qmd
+      - section: "Assignments"
+        contents:
+          - text: "Assignment 1"
+            file: assignments/assignment1.qmd
+          - text: "Assignment 2"
+            file: assignments/assignment2.qmd
 
 format:
   html:

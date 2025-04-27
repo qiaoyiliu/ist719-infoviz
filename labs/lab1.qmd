@@ -1,0 +1,11 @@
+---
+title: "Lab 1: Introduction to R and Data Wrangling"
+format: html
+---
+
+# Lab 1 Overview
+
+Welcome to the first lab session!  
+In this lab you will practice basic R operations and tidy data wrangling.
+
+Content coming soon...

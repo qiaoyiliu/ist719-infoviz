@@ -328,5 +328,16 @@
       "Course Topics",
       "Network Analysis + WiP Feedback"
     ]
+  },
+  {
+    "objectID": "labs/lab1.html",
+    "href": "labs/lab1.html",
+    "title": "Lab 1: Introduction to R and Data Wrangling",
+    "section": "",
+    "text": "Lab 1 Overview\nWelcome to the first lab session!\nIn this lab you will practice basic R operations and tidy data wrangling.\nContent coming soon…",
+    "crumbs": [
+      "Labs",
+      "Lab 1"
+    ]
   }
 ]
