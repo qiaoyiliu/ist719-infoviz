@@ -3,4 +3,17 @@ title: "ggplot2"
 format: html
 ---
 
-Content coming soon...
+## Quiz: ggplot2 Command Check
+
+::: {.quiz}
+
+# Consider the dataset `mpg`, and variables `cty` (city miles per gallon), `hwy` (highway miles per gallon) and `fl` (fuel type).
+
+Which of the following commands produces the desired scatter plot?
+
+- [ ] `ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hyw, fill=fl))`
+- [x] `ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hwy, color=fl))`
+- [ ] `ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hwy), color=fl)`
+- [ ] `ggplot(data=mpg, mapping = aes(x = cty, y = hwy, color=fl))+geom_point()`
+
+:::

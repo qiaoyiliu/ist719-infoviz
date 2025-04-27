@@ -206,8 +206,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#quiz-ggplot2-command-check" id="toc-quiz-ggplot2-command-check" class="nav-link active" data-scroll-target="#quiz-ggplot2-command-check">Quiz: ggplot2 Command Check</a></li>
+  <li><a href="#consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type." id="toc-consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type." class="nav-link" data-scroll-target="#consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type.">Consider the dataset <code>mpg</code>, and variables <code>cty</code> (city miles per gallon), <code>hwy</code> (highway miles per gallon) and <code>fl</code> (fuel type).</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -231,7 +238,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Content coming soon…</p>
+<section id="quiz-ggplot2-command-check" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-ggplot2-command-check">Quiz: ggplot2 Command Check</h2>
+</section>
+<section id="consider-the-dataset-mpg-and-variables-cty-city-miles-per-gallon-hwy-highway-miles-per-gallon-and-fl-fuel-type." class="level1 quiz">
+<h1>Consider the dataset <code>mpg</code>, and variables <code>cty</code> (city miles per gallon), <code>hwy</code> (highway miles per gallon) and <code>fl</code> (fuel type).</h1>
+<p>Which of the following commands produces the desired scatter plot?</p>
+<ul class="task-list">
+<li><label><input type="checkbox"><code>ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hyw, fill=fl))</code></label></li>
+<li><label><input type="checkbox" checked=""><code>ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hwy, color=fl))</code></label></li>
+<li><label><input type="checkbox"><code>ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hwy), color=fl)</code></label></li>
+<li><label><input type="checkbox"><code>ggplot(data=mpg, mapping = aes(x = cty, y = hwy, color=fl))+geom_point()</code></label></li>
+</ul>
+</section>
 
 
 
