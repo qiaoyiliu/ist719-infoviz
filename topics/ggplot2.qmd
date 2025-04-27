@@ -5,11 +5,11 @@ format: html
 
 ## Quiz: ggplot2 Command Check
 
-::: {.quiz}
+::: {.quiz options="allow-retry:true show-answers:true"}
 
-# Consider the dataset `mpg`, and variables `cty` (city miles per gallon), `hwy` (highway miles per gallon) and `fl` (fuel type).
+# Consider the dataset `mpg`, and variables `cty` (city miles per gallon), `hwy` (highway miles per gallon), and `fl` (fuel type).
 
-Which of the following commands produces the desired scatter plot?
+Which of the following commands produces the desired scatter plot with `cty` on the x-axis, `hwy` on the y-axis, colored by `fl`?
 
 - [ ] `ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hyw, fill=fl))`
 - [x] `ggplot(data=mpg)+geom_point(mapping = aes(x = cty, y = hwy, color=fl))`
