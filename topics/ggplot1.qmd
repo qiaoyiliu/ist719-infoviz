@@ -1,6 +1,7 @@
 ---
 title: "ggplot1"
 format: html
+engine: knitr
 execute: 
   echo: true
   eval: true
