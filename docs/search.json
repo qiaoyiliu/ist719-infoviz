@@ -350,5 +350,27 @@
       "Assignments",
       "Assignment 1"
     ]
+  },
+  {
+    "objectID": "assignments/assignment2.html",
+    "href": "assignments/assignment2.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2 Instructions\nInstructions for your first assignment will be posted here.\nContent coming soon…",
+    "crumbs": [
+      "Assignments",
+      "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "labs/lab2.html",
+    "href": "labs/lab2.html",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Lab 2 Overview\nWelcome to the first lab session!\nIn this lab you will practice basic R operations and tidy data wrangling.\nContent coming soon…",
+    "crumbs": [
+      "Labs",
+      "Lab 2"
+    ]
   }
 ]

@@ -1,0 +1,11 @@
+---
+title: "Lab 2"
+format: html
+---
+
+# Lab 2 Overview
+
+Welcome to the first lab session!  
+In this lab you will practice basic R operations and tidy data wrangling.
+
+Content coming soon...
