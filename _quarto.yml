@@ -6,7 +6,7 @@ website:
   title: "IST719 Information Visualization"
   sidebar:
     style: floating
-    search: true   # ✅ already turned on
+    search: true   
     sidebar-header: includes/_sidebar-header.html
     contents:
       - index.qmd
