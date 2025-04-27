@@ -1,8 +1,8 @@
 ---
-title: "ggplot1"
+title: "Intro to ggplot2: Sales Data Heatmap"
 format: html
 engine: knitr
-execute: 
+execute:
   echo: true
   eval: true
 ---
@@ -12,13 +12,12 @@ execute:
 This example explores relationships between **expenses** and **income** in a sample dataset.
 
 ```{r}
-# Load necessary libraries
 library(tidyverse)
 library(ggplot2)
 library(ggthemes)
 
 # Read the sales dataset
-sales <- read.csv("data/sales.csv")  # Adjusted path if you put it under /data/
+sales <- read.csv("../data/sales.csv") # Make sure data/sales.csv exists!
 
 # Create a price category
 price <- ifelse(sales$unit.price > 14, "expensive", "moderate")
@@ -29,3 +28,4 @@ ggplot(sales) +
   aes(x = expenses, y = income, color = price) + 
   geom_hex(bins = 50) +
   ggtitle("Heatmap of Expenses vs Income using bin2d")
+```

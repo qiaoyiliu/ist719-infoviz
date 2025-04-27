@@ -1,0 +1,15 @@
+---
+title: "Test R Code Execution"
+format: html
+engine: knitr
+execute: 
+  echo: true
+  eval: true
+---
+
+# Test Plot
+
+```{r}
+library(ggplot2)
+ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+```
