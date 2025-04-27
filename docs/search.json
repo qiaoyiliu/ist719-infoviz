@@ -44,17 +44,6 @@
     ]
   },
   {
-    "objectID": "topics/ggplot2.html",
-    "href": "topics/ggplot2.html",
-    "title": "ggplot2",
-    "section": "",
-    "text": "Content coming soon…",
-    "crumbs": [
-      "Course Topics",
-      "Advanced ggplot2"
-    ]
-  },
-  {
     "objectID": "topics/ggplot1.html",
     "href": "topics/ggplot1.html",
     "title": "Intro to ggplot2: Sales Data Heatmap",
@@ -80,6 +69,17 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "assignments/assignment2.html",
+    "href": "assignments/assignment2.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2 Instructions\nInstructions for your first assignment will be posted here.\nContent coming soon…",
+    "crumbs": [
+      "Assignments",
+      "Assignment 2"
+    ]
+  },
+  {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "Assignments",
@@ -101,6 +101,17 @@
     "text": "Assignment 2\nDescription…"
   },
   {
+    "objectID": "labs/lab1.html",
+    "href": "labs/lab1.html",
+    "title": "Lab 1: Introduction to R and Data Wrangling",
+    "section": "",
+    "text": "Lab 1 Overview\nWelcome to the first lab session!\nIn this lab you will practice basic R operations and tidy data wrangling.\nContent coming soon…",
+    "crumbs": [
+      "Labs",
+      "Lab 1"
+    ]
+  },
+  {
     "objectID": "readings.html",
     "href": "readings.html",
     "title": "Readings",
@@ -113,6 +124,28 @@
     "title": "Readings",
     "section": "",
     "text": "Chapter 1 - Overview"
+  },
+  {
+    "objectID": "labs/lab2.html",
+    "href": "labs/lab2.html",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Lab 2 Overview\nWelcome to the first lab session!\nIn this lab you will practice basic R operations and tidy data wrangling.\nContent coming soon…",
+    "crumbs": [
+      "Labs",
+      "Lab 2"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment1.html",
+    "href": "assignments/assignment1.html",
+    "title": "Assignment 1: Exploratory Data Analysis",
+    "section": "",
+    "text": "Assignment 1 Instructions\nInstructions for your first assignment will be posted here.\nContent coming soon…",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
   },
   {
     "objectID": "index.html",
@@ -327,50 +360,6 @@
     "crumbs": [
       "Course Topics",
       "Network Analysis + WiP Feedback"
-    ]
-  },
-  {
-    "objectID": "labs/lab1.html",
-    "href": "labs/lab1.html",
-    "title": "Lab 1: Introduction to R and Data Wrangling",
-    "section": "",
-    "text": "Lab 1 Overview\nWelcome to the first lab session!\nIn this lab you will practice basic R operations and tidy data wrangling.\nContent coming soon…",
-    "crumbs": [
-      "Labs",
-      "Lab 1"
-    ]
-  },
-  {
-    "objectID": "assignments/assignment1.html",
-    "href": "assignments/assignment1.html",
-    "title": "Assignment 1: Exploratory Data Analysis",
-    "section": "",
-    "text": "Assignment 1 Instructions\nInstructions for your first assignment will be posted here.\nContent coming soon…",
-    "crumbs": [
-      "Assignments",
-      "Assignment 1"
-    ]
-  },
-  {
-    "objectID": "assignments/assignment2.html",
-    "href": "assignments/assignment2.html",
-    "title": "Assignment 2",
-    "section": "",
-    "text": "Assignment 2 Instructions\nInstructions for your first assignment will be posted here.\nContent coming soon…",
-    "crumbs": [
-      "Assignments",
-      "Assignment 2"
-    ]
-  },
-  {
-    "objectID": "labs/lab2.html",
-    "href": "labs/lab2.html",
-    "title": "Lab 2",
-    "section": "",
-    "text": "Lab 2 Overview\nWelcome to the first lab session!\nIn this lab you will practice basic R operations and tidy data wrangling.\nContent coming soon…",
-    "crumbs": [
-      "Labs",
-      "Lab 2"
     ]
   }
 ]
