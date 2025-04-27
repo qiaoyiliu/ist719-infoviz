@@ -1,0 +1,10 @@
+---
+title: "Assignment 1: Exploratory Data Analysis"
+format: html
+---
+
+# Assignment 1 Instructions
+
+Instructions for your first assignment will be posted here.
+
+Content coming soon...
